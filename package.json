@@ -1,0 +1,17 @@
+{
+  "name": "browserify-no-build-import-node-modules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@material/textfield": "^0.38.1",
+    "browserify": "^16.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify index.js -o bundle.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
